@@ -1,0 +1,25 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 本地实验产出 (避免误传敏感样本)
+local/
+*.local.js
+encode.real.*
+decode.real.*
+
+# 运行时产出
+*.log

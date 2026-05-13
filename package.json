@@ -1,0 +1,17 @@
+{
+  "name": "js-ast-deobfuscation-lab",
+  "version": "0.1.0",
+  "description": "基于 Babel AST 的 JavaScript 反混淆学习项目 - 字符串数组还原 / 控制流恢复 / 内联解码等通用技术演练",
+  "main": "src/deobfuscate.js",
+  "scripts": {
+    "demo": "node src/deobfuscate.js"
+  },
+  "keywords": ["babel", "ast", "deobfuscation", "javascript", "reverse-engineering", "learning"],
+  "license": "MIT",
+  "dependencies": {
+    "@babel/generator": "^7.23.0",
+    "@babel/parser": "^7.23.0",
+    "@babel/traverse": "^7.23.0",
+    "@babel/types": "^7.23.0"
+  }
+}
